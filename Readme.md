@@ -39,7 +39,7 @@ You can delegate or filter events as following:
   <li>not menut</li>
   <li class="menu">menu 2</li>
 </ul>
-``
+```
 and/or listen predefined events:
 
 ```html
