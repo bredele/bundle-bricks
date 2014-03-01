@@ -15,6 +15,17 @@
 
 ## Introduction
 
+First, make sure you created a [lego](http://github.com/bredele/lego).
+
+```js
+var bricks = require('lego-brick')(controller);
+
+view.use(bricks);
+```
+
+  `controller` is an object with functions and/or properties used by some bricks as `events`. The default controller
+  is the lego view itself.
+
 ## Events
 
 This middleware includes the [events](http://github.com/bredele/events-brick) brick with the name 
