@@ -1,0 +1,29 @@
+{
+  "name": "lego-bricks",
+  "version": "0.0.1",
+  "description": "Lego middleware to add the most used lego bricks",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bredele/lego-bricks.git"
+  },
+  "keywords": [
+    "lego",
+    "bricks",
+    "plugin",
+    "mvc",
+    "mvvm"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/lego-bricks/issues"
+  }
+}
