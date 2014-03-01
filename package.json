@@ -27,6 +27,7 @@
     "url": "https://github.com/bredele/lego-bricks/issues"
   },
   "dependencies": {
-    "events-brick": "~0.1.1"
+    "events-brick": "~0.1.1",
+    "repeat-brick": "0.0.1"
   }
 }
