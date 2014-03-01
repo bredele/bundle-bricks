@@ -17,6 +17,8 @@
 
 First, make sure you created a [lego](http://github.com/bredele/lego).
 
+Then:
+
 ```js
 var bricks = require('lego-brick')(controller);
 
