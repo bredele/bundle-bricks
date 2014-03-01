@@ -1,7 +1,7 @@
 
 # lego-bricks
 
-  Lego middleware to add the most used bricks
+  [Lego](http://github.com/bredele/lego) middleware to add the most used bricks.
 
 ## Installation
 
