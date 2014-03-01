@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Event bricks</title>
+</head>
+<body>
+	<button on-click="handler">alert</button>
+	<script src="../build/build.js"></script>
+	<script>
+	  var lego = require('lego');
+	  lego(document.body)
+	    .use(require('lego-bricks')({ 
+	    	handler: function() {
+	    		alert('LEGO!');
+	    	}
+	    }))
+	    .build();
+	</script>
+</body>
+</html>

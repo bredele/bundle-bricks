@@ -25,5 +25,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bredele/lego-bricks/issues"
+  },
+  "dependencies": {
+    "events-brick": "~0.1.1"
   }
 }

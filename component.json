@@ -4,8 +4,12 @@
   "description": "Lego middleware to add the most used bricks",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
-  "development": {},
+  "dependencies": {
+    "bredele/events-brick": "*"
+  },
+  "development": {
+    "bredele/lego" : "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [
