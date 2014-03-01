@@ -64,6 +64,20 @@ By default, this brick map mouse events with touch events if you are on a mobile
 
 see [example](https://github.com/bredele/lego-bricks/tree/master/examples/event.html)
 
+## Repeat
+
+This middleware includes the [repeat](http://github.com/bredele/repeat-brick) brick with the name 
+`repeat`. 
+
+```html
+<ul repeat>
+  <li>{{ label }}</li>
+</ul>
+```
+`repeat` use the lego view as [store](http://github.com/bredele/store) and repeat the first child node n times per item into the store.
+
+see [example](https://github.com/bredele/lego-bricks/tree/master/examples/repeat.html)
+
 ## License
 
   The MIT License (MIT)
