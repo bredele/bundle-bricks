@@ -27,10 +27,10 @@ module.exports = function(scope) {
 
 function addEvents(scope, view) {
 	var ev = events(scope || view);
-	view.add('on', ev);
+	view.add('ev', ev);
 	for(var l = names.length; l--;) {
 		var name = names[l];
-		view.add('on-' + name, function(node, fn) {
+		view.add('ev-' + name, function(node, fn) {
 			//should we do use capture?
 			ev.on(node, name, fn);
 		});

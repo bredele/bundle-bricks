@@ -5,19 +5,59 @@
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+  Install with [component](http://component.io):
 
     $ component install bredele/lego-bricks
 
-## API
+  Install with [nodejs](http://nodejs.org):
 
+    $ npm install lego-bricks
 
+## Introduction
+
+## Events
+
+This middleware includes the [events](http://github.com/bredele/events-brick) brick with the name 
+`ev`. 
+
+You can delegate or filter events as following:
+
+```html
+<ul ev="on:click .menu, handler">
+  <li class="menu">menu 1</li>
+  <li>not menut</li>
+  <li class="menu">menu 2</li>
+</ul>
+``
+and/or listen predefined events:
+
+```html
+<button ev-click="handler">do something</button>
+```
+
+Here's a list of the events you can listen:
+  - `click`
+  - `dblclick`
+  - `mousedown`
+  - `mouseup`
+  - `keydown`
+  - `keypress`
+  - `keyup`
+  - `change`
+  - `blur`
+  - `focus`
+  - `input`
+  - `submit`
+
+By default, this brick map mouse events with touch events if you are on a mobile device to get a reactive user experience.
+
+see [example](https://github.com/bredele/lego-bricks/tree/master/examples/event.html)
 
 ## License
 
   The MIT License (MIT)
 
-  Copyright (c) 2014 <copyright holders>
+  Copyright (c) 2014 Olivier Wietrich <olivier.wietrich@gmail.com>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
