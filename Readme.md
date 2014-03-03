@@ -1,32 +1,31 @@
-
 # lego-bricks
 
-  [Lego](http://github.com/bredele/lego) middleware to add the most used bricks.
+  [Brick](http://github.com/bredele/brick) middleware to add the most used bricks.
 
 ## Installation
 
   Install with [component](http://component.io):
 
-    $ component install bredele/lego-bricks
+    $ component install bredele/bundle-bricks
 
   Install with [nodejs](http://nodejs.org):
 
-    $ npm install lego-bricks
+    $ npm install bundle-bricks
 
 ## Introduction
 
-First, make sure you created a [lego](http://github.com/bredele/lego).
+First, make sure you created a [brick](http://github.com/bredele/brick).
 
 Then:
 
 ```js
-var bricks = require('lego-brick')(controller);
+var bricks = require('bundle-brick')(controller);
 
 view.use(bricks);
 ```
 
   `controller` is an object with functions and/or properties used by some bricks as `events`. The default controller
-  is the lego view itself.
+  is the Brick view itself.
 
 ## Events
 
@@ -64,7 +63,7 @@ Here's a list of the events you can listen:
 
 By default, this brick map mouse events with touch events if you are on a mobile device to get a reactive user experience.
 
-see [example](https://github.com/bredele/lego-bricks/tree/master/examples/event.html)
+see [example](https://github.com/bredele/bundle-bricks/tree/master/examples/event.html)
 
 ## Repeat
 
@@ -76,9 +75,9 @@ This middleware includes the [repeat](http://github.com/bredele/repeat-brick) br
   <li>{{ label }}</li>
 </ul>
 ```
-`repeat` use the lego view as [store](http://github.com/bredele/store) and repeat the first child node n times per item into the store.
+`repeat` use the brick view as [store](http://github.com/bredele/store) and repeat the first child node n times per item into the store.
 
-see [example](https://github.com/bredele/lego-bricks/tree/master/examples/repeat.html)
+see [example](https://github.com/bredele/undle-bricks/tree/master/examples/repeat.html)
 
 ## License
 
