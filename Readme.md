@@ -1,4 +1,4 @@
-# lego-bricks
+# bundle-bricks
 
   [Brick](http://github.com/bredele/brick) middleware to add the most used bricks.
 
