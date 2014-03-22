@@ -1,6 +1,6 @@
 {
-  "name": "lego-bricks",
-  "repo": "bredele/lego-bricks",
+  "name": "bundle-bricks",
+  "repo": "bredele/bundle-bricks",
   "description": "Lego middleware to add the most used bricks",
   "version": "0.0.1",
   "keywords": [],
